@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main menu */
+#menu{
+    background-color:#081621;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+#menu a{
+font-size: 16px;
+text-decoration: none;
+color: #FFFFFF;
+display: inline-block;
+padding:10px;
+}
+#menu a:hover{
+    color: #FFFFFF;
+    background-color:#3749BB;
+}
+
+
+/* Short Text */
+#text h3{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(18, 19, 19);
+    font-size: 25px;
+   padding-bottom: 15px;
+   
+}
+#text p{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Overlay Section */
+#parent-div{
+    background-color: rgb(241, 234, 234);
+    position: relative;
+    width: 400px;
+    left: 40%;
+
+}
+#parent-div img{
+    width: 100%;
+}
+#overlay{
+    position: absolute;
+    top: 22%;
+    left: 34%;
+    opacity: 0;
+    visibility: hidden;
+}
+#parent-div:hover #overlay{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.6s;
+}
+#overlay h2{
+    font-size: 50px;
+    color:#9b2f2f;
+}
+#overlay button a{
+    font-size: 17px;
+    color:#FFFFFF;
+    text-decoration: none;
+
+}
+#overlay button{
+    padding: 3px;
+    background-color: #3749BB;
+    border-radius: 8px;
+    border: none;
+    
+
+}
+
+
+
+/* Product Information */
+#product-name{
+    font-size: 25px;
+    margin: 15px 0 10px ;
+}
+#product{
+    padding: 8px;
+    width: 30%;
+    background-color: #F2F4F8;
+    
+}
+#product img{
+    width: 100%;
+}
+#product-info h4{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#product-info a{
+text-decoration: none;
+color:black;
+margin-bottom: 10px;
+font-size: 18px;
+}
+#product-info a:hover{
+    text-decoration: underline;
+    color:#F37223;
+    text-decoration-color: #F37223;
+    font-family: sans-serif;
+    -moz-text-decoration-color: #F37223;
+}
+#product-info ul{
+    padding-left: 10px;
+}
+#product-info ul li{
+   line-height:25px;
+}
+#product-info p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+#product-info p:hover{
+    color: #F37223;
+    border: 1px solid #3749BB;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+#product-button button{
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: #3749BB ;
+    padding: 5px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+}
+#product-button button:hover{
+    color:  #FFFFFF;
+    background-color: #3749BB;
+    font-size: 19px;
+    padding: 8px;
+    transition: 0.8s;
+}
+
+
+
+
+/* Text 2 */
+#text-2{
+    font-family: 'Merriweather', serif;
+    margin-top: 25px;
+    text-align: justify;
+}
+span{
+    font-size: 20px;
+}
+#chat{
+    background-color: #081621;
+    color: #ffffff;
+    position: fixed;
+    padding: 5px;
+    border-radius: 9px;
+    font-size: 18px;
+    border: none;
+    right: 0;
+    bottom: 0;
+    margin: 0 5px 9px 0;
+  
+
+}
+#chat:hover{
+    font-size: 16px;
+    background-color:#3749BB;
+    color:#FFFFFF ;
+    border-radius: 5px;
+    transition: 0.6s;
+}
